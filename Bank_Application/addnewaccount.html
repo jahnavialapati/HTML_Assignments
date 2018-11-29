@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AddNewAccount</title>
+    <link rel="stylesheet" type="text/css" href="CSS/bankstyle.css">
+</head>
+        <body>
+                <header>    
+                        <img src="hdfclogo.jpg" alt="hdfc logo"/>
+                        <h1>HDFC</h1>
+                  </header>
+                       
+                <nav>
+                  <a href="login.html">Login</a>
+                  <a href="addnewaccount.html">AddNewAccount</a>
+                  <a href="searchaccount.html">SearchAccount</a>
+                  <a href="viewaccount.html">ViewAccount</a>
+                  <a href="viewallcustomers.html">ViewAllCustomers</a>
+                  <a href="updatecustomerform.html">UpdateCustomerForm</a>
+                  <a href="withdrawform.html">WithdrawForm</a>
+                  <a href="depositform.html">DepositForm</a>
+                  <a href="fundtransfer.html">FundTransfer</a>
+               </nav>
+    <div align="center">
+        
+    <form>
+        <br><br>
+        <h1>New Account</h1>
+        Account Holder Name:
+        <input type="text" name="holdername" placeholder="Customer Name" required><br><br>
+        CustomerEmailId:
+        <input type="email" name="email" placeholder="Enter Email"><br><br>
+        CustomerDOB:
+        <input type="text" name="dob" placeholder="Ente date of birth"required><br><br>
+        CustomerPhoneNumber:
+        <input type="number" name="phoneno" placeholder="Enter phone number"required><br><br>
+        AccountType:
+        <select>
+            <option value="select an option">select an option</option>
+            <option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+        </select><br><br>
+        <button class="button">Submit</button>
+        <input type="button" class="button" value="Reset">
+     </form>
+     </div>
+     <footer>
+     <marquee>
+            © HDFC Bank Ltd. All rights reserved.
+    </marquee>
+     </footer>
+</body>
+</html>

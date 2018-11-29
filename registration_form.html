@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Registration</title>
+    <style>
+            .button 
+            {
+                  background-color:lavender;
+                  padding: 10px 20px;
+                  text-align: center;  
+                  font-size: 14px;
+             }
+         </style>
+</head>
+<body style="background-color:lightcyan">
+    <div align="center">
+    <form >
+        <h1>ONLINE REGISTRATION</h1>
+      First Name:
+      <input type="text" name="firstname" pattern="[a-zA-Z]{4,25}" title="invalid" placeholder="Enter FirstName" required><br><br>
+      Last Name:
+      <input type="text" name="lastname" pattern="[a-zA-Z]{25}" title="invalid" placeholder="Enter LastName" required><br> <br>
+      Address:
+      <textarea name="address" maxlength="50" pattern="[a-zA-Z]{50}" required> </textarea><br><br>
+      Email Id: 
+      <input type="email" name="email" required> <br></br>
+
+      State: 
+      <select>
+            <option value="AndhraPradesh">AndhraPradesh</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+       </select><br><br> 
+      City:
+      <select>
+            <option value="Guntur">Guntur</option>
+            <option value="Vizag">Vizag</option>
+            <option value="Vijayawada">Vijayawada</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Madhurai">Madhurai</option>
+       </select><br> <br>
+       University Branch Name:
+       <select>
+            <option value="jntuk">JNTUK</option>
+            <option value="klu">KLU</option>
+            <option value="vit">VIT</option>
+            <option value="vignanjyothi">VIGNANJYOTHI</option>
+            <option value="LPU">LPU</option>
+            <option value="svecw">SVECW</option>
+            <option value="SRM">SRM</option>
+            <option value="BVRIT">BVRIT</option>
+       </select><br> <br>
+       Phone Number: 
+       <input type="number" name="phonenumber" placeholder="Enter a valid phonenumber" pattern="[0-9]{10}"required><br><br>
+       Enrolled Course: 
+       <input type="text" name="course" pattern="[a-zA-Z0-9]{5}"> <br><br>
+       Date of Test: 
+       <input type="date" name="date of test" required> <br><br>
+       Written Test Marks: 
+       <input type="number" name="marks" min="50" max="100" required>
+       <br><br>
+       <input type="button" class="button" value="Submit">
+    </form>
+</div>
+</body>
+</html>

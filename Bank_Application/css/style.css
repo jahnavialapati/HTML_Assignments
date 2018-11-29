@@ -1,0 +1,48 @@
+.header-right a
+{
+                   float: left;
+                   color:black;
+                   padding: 15px;
+                   text-decoration: none;
+                   font-size: 24px; 
+}
+aside
+{
+                   background-color: red;
+                   width:37%;
+                   float:right;
+}  
+article
+{
+                  background-color: white;
+                  float:left;
+                  height:70%;
+                  width:60%;
+}
+.header-right 
+{ 
+                padding-right: 0%;
+                  height: 50%;
+                  width:50%;
+                  float:right;
+}
+.header-right a:hover
+{
+                  color:green;
+}
+ h1
+{
+            width:50%;
+            float:left;
+            font-style: italic;
+            color:green;
+            font-size: xx-large;
+                
+}
+a
+{
+               
+               text-decoration: none;
+}            
+        
+        
